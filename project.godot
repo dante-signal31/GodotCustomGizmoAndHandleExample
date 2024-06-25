@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="GodotCustomGizmoAndHandleExample"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
+config/icon="res://nodes/CustomNode3D/icon.svg"
+
+[dotnet]
+
+project/assembly_name="GodotCustomGizmoAndHandleExample"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/custom_node3D_gizmo/plugin.cfg", "res://addons/custom_node3D_register/plugin.cfg")
